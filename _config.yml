@@ -14,26 +14,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: My Awesome Site
-email:
+title: Suraj Upadhyay
+email: usuraj35@gmail.com
 description:
 baseurl: # the optional subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://surajupadhyay.com"
 author:
-  name:
-  twitter:
-  picture:
-twitter_username:
-github_username:
+  name: Suraj Upadhyay
+  twitter: SurajUpadhyay0
+  picture: https://pbs.twimg.com/profile_images/1347962692661702658/pKZmJzyx_400x400.jpg
+twitter_username: SurajUpadhyay0
+github_username: Suraj-Upadhyay
 logo: # path of site logo, e.g. "/assets/images/logo.png"
-search: # true, false (default)
-search_full_content: false # true, false (default)
-search_provider: # lunr (default), algolia
-algolia:
-  application_id: # YOUR_APPLICATION_ID
-  index_name: # YOUR_INDEX_NAME
-  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
-  powered_by: # true (default), false
+search: true #, false (default)
+search_full_content: true # true, false (default)
+search_provider: # algolia, lunr (default),
 
 # Build settings
 markdown: kramdown
