@@ -16,9 +16,13 @@
         </h1>
       {% else %}
         <p class="site-title">
-          <a href="{{ '/' | relative_url }}">
+          <a href="{{ '/' | relative_url }}" style="display: inline;">
             {% if site.logo %}<img src="{{ site_logo }}" alt="" class="site-logo">{% endif %}
             <span>{{ site.title | escape }}</span>
+          </a>
+          <span class="icon icon--arrow-right">{% include icon-arrow-right.svg %}</span>
+          <a href="{{ page.url }}" style="display: inline;">
+            <span>{{ page.title | escape }}</span>
           </a>
         </p>
       {% endif %}
